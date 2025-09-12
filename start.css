@@ -1,6 +1,15 @@
-#para{
-    color: aqua;
+#para {
+  color: aqua;
 }
-.para2{
-color: blueviolet;
+.para2 {
+  color: blueviolet;
+}
+.con {
+  border: 5px solid black;   
+  border-radius: 5px; 
+  height: 200px;
+  width: 200px;
+}
+img{
+    opacity: 0.1;
 }
