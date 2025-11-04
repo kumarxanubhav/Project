@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Destructuring</title>
+  </head>
+  <body>
+    <p id="anu"></p>
+    <script>
+      const person = {
+        firstname: "abes",
+        lastname: "college",
+        age: 25,
+      };
+      //   document.getElementById("anu").innerHTML = person.firstname;
+      //   document.getElementById("anu").innerHTML = person.age;
+      let { age, firstname } = person;
+      let res = { age, firstname };
+      document.getElementById("anu").innerHTML = res;
+    </script>
+  </body>
+</html>
